@@ -1962,11 +1962,15 @@ video:hover
     }
 
     .nome-espaco {
-        letter-spacing: 0.6em;
+        letter-spacing: 0.5em;
     }
 
     .nome-espaco h1 {
-        font-size: 0.6em;
+        font-size: 0.5em;
+    }
+
+    .elipse {
+        margin-left: 1em;
     }
 
     nav {
@@ -1980,15 +1984,15 @@ video:hover
     }
 
     nav ul a {
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
 
     .lado-direito h2 {
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
 
     .elipse {
-        margin-left: 3.5em;
+        margin-left: 1em;
     }
 
     .eclipse1 {
