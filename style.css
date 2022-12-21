@@ -1,0 +1,2689 @@
+* {
+    margin: 0;
+    margin-top: 0.2em;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-image: url(./assets/bg\ header.jpg);
+    background-size: cover;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: #E40037;
+}
+
+.primeiras-informacoes {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.primeiras-informacoes img {
+    width: 5em;
+    margin-right: 1em;
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+}
+
+.nome-espaco {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 1em;
+    align-items: center;
+    color: #E40037;
+    font-size: 0.8em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    font-size: 1em;
+    margin-top: 0.9em;
+    margin-left: -7em;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.lado-direito {
+    margin-right: 1.2em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    color: #E40037;
+    font-size: 1em;
+}
+
+.lado-direito h2 {
+    margin-top: 0;
+}
+
+.elipse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.eclipse1 {
+    position: relative;
+    justify-content: center;
+    margin-top: 4em;
+    border-radius: 20em;
+    width: 20em;
+    height: 20em;
+    border: 1em solid #E40037;
+    box-shadow: 0em 0em 3em 0em #e40037;
+}
+
+.eclipse2 {
+    position: absolute;
+    justify-content: center;
+    margin-top: 4em;
+    border-radius: 20em;
+    width: 20em;
+    height: 20em;
+    border: 1em solid #E40037;
+    box-shadow: inset 0em 0em 3em 0em #e40037;
+    
+}
+
+
+.ultimas-informacoes {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.esquerda {
+    margin-top: 4em;
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+.centro2 img {
+    width: 22em;
+    position: absolute;
+    height: 40em;
+}
+
+.direita {
+    margin-top: 4em;
+    margin-right: 1.2em;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.social-list img {
+    width: 2em;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15em;
+    margin-left: 1em;
+}
+
+.about1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12em;
+    justify-content: center;
+}
+
+.imagem-about img {
+    width: 20em;
+}
+
+.imagem-about p{
+    font-size: 0.4em;
+}
+
+.titulo-about {
+    color:#E40037;
+    width: min-content;
+}
+
+.texto-about {
+    width: 80%;
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15em;
+    margin-left: 1em;
+}
+
+.introducao-projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem-projects img {
+    width: 25em;
+}
+
+.projects1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12em;
+    justify-content: center;
+}
+
+.titulo-projects {
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-projects {
+    width: 80%;
+}
+
+.java-projects {
+    margin-top: 15em;
+}
+
+.introducao-java {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-java img{
+    width: 30em;
+}
+
+.titulo-java {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #E40037;
+    font-size: 1em;
+    width: min-content;
+}
+
+.project1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15em;
+}
+
+.introducao-project1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12em;
+}
+
+.img-project1 {
+
+}
+
+.titulo-project1 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-project1 {
+    width: 80%;
+}
+
+.project2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15em;
+    margin-right: 1em;
+}
+
+.introducao-project2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4em;
+}
+
+.img-project2 {
+
+}
+
+.titulo-project2 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-project2 {
+    width: 80%;
+}
+
+.project3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15em;
+}
+
+.introducao-project3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12em;
+}
+
+.img-project3 {
+
+}
+
+.titulo-project3 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-project3 {
+    width: 80%;
+}
+
+.project4 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15em;
+    margin-right: 1em;
+}
+
+.introducao-project4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4em;
+}
+
+.img-project4 {
+
+}
+
+.titulo-project4 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-project4 {
+    width: 80%;
+}
+
+.project5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15em;
+}
+
+.introducao-project5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12em;
+}
+
+.img-project5 {
+
+}
+
+.titulo-project5 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-project5 {
+    width: 80%;
+}
+
+.frontend-projects {
+    margin-top: 15em;
+}
+
+.introducao-frontend-projects {
+    display: flex;
+    flex-direction: row;
+    width: min-content;
+}
+
+.img-frontend {
+    transform-style: preserve-3d;
+}
+
+.img-frontend img {
+    width: 25em;
+}
+
+.img-frontend:hover img {
+    
+}
+
+.titulo-frontend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12em;
+    color: #E40037;
+    font-size: 1em;
+    width: min-content;
+}
+
+.frontend-project1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15em;
+}
+
+.introducao-frontend-project1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12em;
+}
+
+.img-frontend-project1 {
+
+}
+
+.titulo-frontend-project1 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-frontend-project1 {
+    width: 80%;
+}
+
+.frontend-project2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15em;
+    margin-right: 1em;
+}
+
+.introducao-frontend-project2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4em;
+}
+
+.img-frontend-project2 {
+
+}
+
+.titulo-frontend-project2 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-frontend-project2 {
+    width: 80%;
+}
+
+.frontend-project3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15em;
+}
+
+.introducao-frontend-project3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12em;
+}
+
+.img-frontend-project3 {
+
+}
+
+.titulo-frontend-project3 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-frontend-project3 {
+    width: 80%;
+}
+
+.frontend-project4 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15em;
+    margin-right: 1em;
+}
+
+.introducao-frontend-project4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4em;
+}
+
+.img-frontend-project4 {
+
+}
+
+.titulo-frontend-project4 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-frontend-project4 {
+    width: 80%;
+}
+
+.frontend-project5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15em;
+}
+
+.introducao-frontend-project5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12em;
+}
+
+.img-frontend-project5 {
+
+}
+
+.titulo-frontend-project5 {
+    display: flex;
+    flex-direction: column;
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-frontend-project5 {
+    width: 80%;
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15em;
+    margin-left: 1em;
+}
+
+.imagem-contato img {
+    width: 20em;
+}
+
+.introducao-contato {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12em;
+    justify-content: center;
+}
+
+.titulo-contato {
+    color: #E40037;
+    width: min-content;
+}
+
+.texto-contato {
+    width: 80%;
+}
+
+.social-list2 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 1em;
+}
+
+/*  transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); */
+
+@keyframes color-rotate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateX(-30px)
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+.eclipse1:hover {
+    animation: color-rotate 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+    
+.eclipse2:hover {
+    animation: color-rotate 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.introducao-java {
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.introducao-frontend-projects {
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+ 
+.lado-esquerdo {
+    animation: fromBottom .6s backwards;
+}
+
+nav ul {
+    animation: fromBottom .6s backwards;
+}
+
+.lado-direito {
+    animation: fromBottom .9s backwards;
+}
+
+.elipse {
+    animation: fromBottom .9s backwards;
+}
+
+.centro2 img{
+    animation: fromBottom .7s backwards;
+}
+
+.esquerda {
+    animation: fromBottom .7s backwards;
+}
+
+.direita {
+    animation: fromBottom .9s backwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.primeiras-informacoes img:hover,
+.nome-espaco:hover,
+nav ul li:hover,
+.lado-direito h2:hover,
+.centro2 img:hover,
+.esquerda:hover,
+.social-list img:hover,
+.imagem-about img:hover,
+.imagem-projects:hover,
+.imagem-contato img:hover, 
+.social-list2 img:hover {
+    transform: scale(1.1);
+}
+
+.primeiras-informacoes img, 
+.lado-direito h2,
+.nome-espaco,
+nav ul li,
+.centro2 img,
+.esquerda,
+.social-list img,
+.imagem-about img,
+.imagem-projects,
+.imagem-contato img,
+.social-list2 img {
+    transition: transform 0.4s;
+}
+
+.primeiras-informacoes,
+.lado-direito h2,
+.nome-espaco,
+nav ul li,
+.centro2, 
+.esquerda,
+.social-list img,
+.imagem-about img,
+.imagem-projects,
+.imagem-contato img,
+.social-list2 img {
+    animation: appear .7s;
+}
+
+.texto-about p:hover,
+.texto-projects p:hover,
+.texto-project1:hover,
+.texto-project2:hover,
+.texto-project3:hover,
+.texto-project4:hover,
+.texto-project5:hover,
+.texto-frontend-project1:hover,
+.texto-frontend-project2:hover,
+.texto-frontend-project3:hover,
+.texto-frontend-project4:hover,
+.texto-frontend-project5:hover,
+.texto-contato:hover {
+    transform: scale(1.02);
+}
+
+.texto-about p, 
+.texto-projects p,
+.texto-project1,
+.texto-project2,
+.texto-project3,
+.texto-project4,
+.texto-project5,
+.texto-frontend-project1,
+.texto-frontend-project2, 
+.texto-frontend-project3, 
+.texto-frontend-project4, 
+.texto-frontend-project5,
+.texto-contato {
+    transition: transform 0.4s;
+}
+ 
+.texto-about p,
+.texto-projects p,
+.texto-project1,
+.texto-project2,
+.texto-project3,
+.texto-project4,
+.texto-project5,
+.texto-frontend-project1,
+.texto-frontend-project2, 
+.texto-frontend-project3, 
+.texto-frontend-project4, 
+.texto-frontend-project5,
+.texto-contato {
+    animation: appear .7s;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.titulo-about:hover,
+.titulo-projects:hover,
+.titulo-project1:hover,
+.titulo-project2:hover,
+.titulo-project3:hover,
+.titulo-project4:hover,
+.titulo-project5:hover,
+.titulo-frontend-project1:hover,
+.titulo-frontend-project2:hover,
+.titulo-frontend-project3:hover,
+.titulo-frontend-project4:hover,
+.titulo-frontend-project5:hover,
+.titulo-contato:hover,
+.introducao-java img:hover,
+video:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+.img-frontend:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
+@keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+.introducao-frontend-projects {
+    animation: go-back 1s infinite alternate;
+}  
+
+.primeiras-informacoes, .eclipse2, .ultimas-informacoes, #sobre, .introducao-projects, .introducao-java, .project1, .project2, .project3,
+.project4, .project5, .introducao-frontend-projects, .frontend-project1, .frontend-project2, .frontend-project3, .frontend-project4, 
+.frontend-project5, #contato {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 999px) {
+    .primeiras-informacoes img {
+        width: 3em;
+    }
+
+    .logo {
+        width: min-content;
+    }
+
+    .nome-espaco h1 {
+        font-size: 0.9em;
+    }
+
+    nav {
+        align-items: baseline;
+    }
+    
+    nav ul {
+        gap: 3em;
+        margin-left: 0em;
+    }
+
+    nav ul a {
+        font-size: 0.8em;
+    }
+
+    .lado-direito h2 {
+        font-size: 0.9em;
+    }
+
+    .elipse {
+        margin-left: 5em;
+    }
+
+    .eclipse1 {
+        width: 15em;
+        height: 15em;
+    }
+
+    .eclipse2 {
+        width: 15em;
+        height: 15em;
+    }
+
+    .centro2 img {
+        width: 18em;
+        position: absolute;
+        height: 35em;
+    }
+
+    .ultimas-informacoes {
+        margin-top: 7em;
+    }
+
+    .ultimas-informacoes span {
+        font-size: 0.8em;
+    }
+
+    .social-list img {
+        width: 1.3em;
+    }
+
+    .imagem-about img {
+        width: 16em;
+    }
+
+    .titulo-about {
+        width: fit-content;
+    }
+
+    .titulo-about h1 {
+        font-size: 0.9em;
+    }
+
+    .texto-about p {
+        font-size: 0.9em;
+    }
+
+    .imagem-projects img {
+        width: 20em;
+    }
+
+    .projects1 {
+        margin-left: 10em;
+    }
+
+    .titulo-projects h1{
+        font-size: 0.9em;
+    }
+
+    .texto-projects p {
+        font-size: 0.9em;
+    }
+
+    .titulo-java h1 {
+        font-size: 1em;
+    }
+
+    .introducao-java {
+        margin-top: 10em;
+    }
+
+    video {
+        width: 420px;
+        height: 300px;
+    }
+
+    .introducao-project1 {
+        margin-left: 5em;
+    }
+
+    .titulo-project1 {
+        width: auto;
+    }
+
+    .titulo-project1 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-project1 {
+        font-size: 0.9em;
+    }
+
+    .project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-project2 {
+        margin-left: 2em;
+    }
+
+    .titulo-project2 {
+        width: auto;
+    }
+
+    .titulo-project2 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-project2 {
+        font-size: 0.9em;
+    }
+
+    .project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-project3 {
+        margin-left: 5em;
+    }
+
+    .titulo-project3 {
+        width: auto;
+    }
+
+    .titulo-project3 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-project3 {
+        font-size: 0.9em;
+    }
+
+    .project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-project4 {
+        margin-left: 2em;
+    }
+
+    .titulo-project4 {
+        width: auto;
+    }
+
+    .titulo-project4 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-project4 {
+        font-size: 0.9em;
+    }
+
+    .project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-project5 {
+        margin-left: 5em;
+    }
+
+    .titulo-project5 {
+        width: auto;
+    }
+
+    .titulo-project5 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-project5 {
+        font-size: 0.9em;
+    }
+
+    .project5 {
+        margin-left: 1em;
+    }
+
+    .img-frontend img {
+        width: 20em;
+    }
+
+    .titulo-frontend h1 {
+        font-size: 1em;
+    }
+
+    .introducao-frontend-project1 {
+        margin-left: 5em;
+    }
+
+    .titulo-frontend-project1 {
+        width: auto;
+    }
+
+    .titulo-frontend-project1 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-frontend-project1 {
+        font-size: 0.9em;
+    }
+
+    .frontend-project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project2 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project2 {
+        width: auto;
+    }
+
+    .titulo-frontend-project2 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-frontend-project2 {
+        font-size: 0.9em;
+    }
+
+    .frontend-project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project3 {
+        margin-left: 5em;
+    }
+
+    .titulo-frontend-project3 {
+        width: auto;
+    }
+
+    .titulo-frontend-project3 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-frontend-project3 {
+        font-size: 0.9em;
+    }
+
+    .frontend-project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project4 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project4 {
+        width: auto;
+    }
+
+    .titulo-frontend-project4 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-frontend-project4 {
+        font-size: 0.9em;
+    }
+
+    .frontend-project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project5 {
+        margin-left: 5em;
+    }
+
+    .titulo-frontend-project5 {
+        width: auto;
+    }
+
+    .titulo-frontend-project5 h2{
+        font-size: 0.9em;
+    }
+
+    .texto-frontend-project5 {
+        font-size: 0.9em;
+    }
+
+    .frontend-project5 {
+        margin-left: 1em;
+    }
+
+    .titulo-contato h1 {
+        font-size: 0.9em;
+    }
+
+    .texto-contato p {
+        font-size: 0.9em;
+    }
+
+    .social-list2 img {
+        width: 1.5em;
+    }
+
+    .imagem-contato img {
+        width: 16em;
+    }
+}
+
+
+
+@media screen and (max-width: 699px) {
+    .primeiras-informacoes img {
+        width: 2em;
+    }
+
+    .logo {
+        width: min-content;
+    }
+
+    .nome-espaco h1 {
+        font-size: 0.7em;
+    }
+
+    nav {
+        align-items: center;
+    }
+    
+    nav ul {
+        gap: 2em;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+
+    nav ul a {
+        font-size: 0.7em;
+    }
+
+    .lado-direito h2 {
+        font-size: 0.7em;
+    }
+
+    .elipse {
+        margin-left: 5em;
+    }
+
+    .eclipse1 {
+        width: 12em;
+        height: 12em;
+    }
+
+    .eclipse2 {
+        width: 12em;
+        height: 12em;
+        box-shadow: inset 0em 0em 2em 0em #e40037;
+    }
+
+    .centro2 img {
+        width: 14em;
+        position: absolute;
+        height: 30em;
+    }
+
+    .ultimas-informacoes {
+        margin-top: 4em;
+    }
+
+    .ultimas-informacoes span {
+        font-size: 0.8em;
+    }
+
+    .social-list img {
+        width: 1em;
+    }
+
+    .imagem-about img {
+        width: 14em;
+    }
+
+    .titulo-about {
+        width: fit-content;
+    }
+
+    .titulo-about h1 {
+        font-size: 0.7em;
+    }
+
+    .texto-about p {
+        font-size: 0.7em;
+    }
+
+    .about1 {
+        margin-left: 8em;
+    }
+
+    .imagem-projects img {
+        width: 15em;
+    }
+
+    .projects1 {
+        margin-left: 8em;
+    }
+
+    .titulo-projects h1{
+        font-size: 0.7em;
+    }
+
+    .texto-projects p {
+        font-size: 0.7em;
+    }
+
+    .img-java img {
+        width: 15em;
+    }
+
+    .titulo-java h1 {
+        font-size: 1em;
+    }
+
+    .introducao-java {
+        margin-top: 10em;
+        justify-content: center;
+    }
+
+    video {
+        width: 370px;
+        height: 240px;
+    }
+
+    .introducao-project1 {
+        margin-left: 2em;
+    }
+
+    .titulo-project1 {
+        width: auto;
+    }
+
+    .titulo-project1 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-project1 {
+        font-size: 0.7em;
+    }
+
+    .project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-project2 {
+        margin-left: 2em;
+    }
+
+    .titulo-project2 {
+        width: auto;
+    }
+
+    .titulo-project2 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-project2 {
+        font-size: 0.7em;
+    }
+
+    .project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-project3 {
+        margin-left: 2em;
+    }
+
+    .titulo-project3 {
+        width: auto;
+    }
+
+    .titulo-project3 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-project3 {
+        font-size: 0.7em;
+    }
+
+    .project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-project4 {
+        margin-left: 2em;
+    }
+
+    .titulo-project4 {
+        width: auto;
+    }
+
+    .titulo-project4 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-project4 {
+        font-size: 0.7em;
+    }
+
+    .project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-project5 {
+        margin-left: 2em;
+    }
+
+    .titulo-project5 {
+        width: auto;
+    }
+
+    .titulo-project5 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-project5 {
+        font-size: 0.7em;
+    }
+
+    .project5 {
+        margin-left: 1em;
+    }
+
+    .img-frontend img {
+        width: 15em;
+    }
+
+    .titulo-frontend {
+        margin-left: 7em;
+    }
+
+    .titulo-frontend h1 {
+        font-size: 0.9em;
+    }
+
+    .introducao-frontend-project1 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project1 {
+        width: auto;
+    }
+
+    .titulo-frontend-project1 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-frontend-project1 {
+        font-size: 0.7em;
+    }
+
+    .frontend-project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project2 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project2 {
+        width: auto;
+    }
+
+    .titulo-frontend-project2 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-frontend-project2 {
+        font-size: 0.7em;
+    }
+
+    .frontend-project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project3 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project3 {
+        width: auto;
+    }
+
+    .titulo-frontend-project3 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-frontend-project3 {
+        font-size: 0.7em;
+    }
+
+    .frontend-project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project4 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project4 {
+        width: auto;
+    }
+
+    .titulo-frontend-project4 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-frontend-project4 {
+        font-size: 0.7em;
+    }
+
+    .frontend-project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project5 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project5 {
+        width: auto;
+    }
+
+    .titulo-frontend-project5 h2{
+        font-size: 0.7em;
+    }
+
+    .texto-frontend-project5 {
+        font-size: 0.7em;
+    }
+
+    .frontend-project5 {
+        margin-left: 1em;
+    }
+
+    .titulo-contato h1 {
+        font-size: 0.7em;
+    }
+
+    .texto-contato p {
+        font-size: 0.7em;
+    }
+
+    .social-list2 {
+        gap: 0.7em;
+    }
+
+    .social-list2 img {
+        width: 1em;
+    }
+
+    .imagem-contato img {
+        width: 14em;
+    }
+}
+
+
+
+@media screen and (max-width: 558px) {
+    .primeiras-informacoes img {
+        width: 1.7em;
+    }
+
+    .logo {
+        width: min-content;
+    }
+
+    .nome-espaco {
+        letter-spacing: 0.7em;
+    }
+
+    .nome-espaco h1 {
+        font-size: 0.6em;
+    }
+
+    nav {
+        align-items: center;
+    }
+    
+    nav ul {
+        gap: 1em;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+
+    nav ul a {
+        font-size: 0.6em;
+    }
+
+    .lado-direito h2 {
+        font-size: 0.6em;
+    }
+
+    .elipse {
+        margin-left: 3.5em;
+    }
+
+    .eclipse1 {
+        width: 10em;
+        height: 10em;
+    }
+
+    .eclipse2 {
+        width: 10em;
+        height: 10em;
+        box-shadow: inset 0em 0em 1em 0em #e40037;
+    }
+
+    .centro2 img {
+        width: 12em;
+        position: absolute;
+        height: 25em;
+    }
+
+    .ultimas-informacoes {
+        margin-top: 2em;
+    }
+
+    .ultimas-informacoes span {
+        font-size: 0.6em;
+    }
+
+    .social-list {
+        gap: 0.7em;
+    }
+
+    .social-list img {
+        width: 0.8em;
+    }
+
+    .imagem-about img {
+        width: 12em;
+    }
+
+    .titulo-about {
+        width: fit-content;
+    }
+
+    .titulo-about h1 {
+        font-size: 0.6em;
+    }
+
+    .texto-about p {
+        font-size: 0.6em;
+    }
+
+    .about1 {
+        margin-left: 5em;
+    }
+
+    .imagem-projects img {
+        width: 12em;
+    }
+
+    .projects1 {
+        margin-left: 6em;
+    }
+
+    .titulo-projects h1{
+        font-size: 0.6em;
+    }
+
+    .texto-projects p {
+        font-size: 0.6em;
+    }
+
+    .introducao-projects {
+        align-items: center;
+    }
+
+    .img-java img {
+        width: 12em;
+    }
+
+    .titulo-java h1 {
+        font-size: 0.9em;
+    }
+
+    .introducao-java {
+        margin-top: 8em;
+        justify-content: center;
+    }
+
+    video {
+        width: 260px;
+        height: 220px;
+    }
+
+    .introducao-project1 {
+        margin-left: 2em;
+    }
+
+    .titulo-project1 {
+        width: auto;
+    }
+
+    .titulo-project1 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project1 {
+        font-size: 0.6em;
+    }
+
+    .project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-project2 {
+        margin-left: 1em;
+    }
+
+    .titulo-project2 {
+        width: auto;
+    }
+
+    .titulo-project2 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project2 {
+        font-size: 0.6em;
+    }
+
+    .project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-project3 {
+        margin-left: 2em;
+    }
+
+    .titulo-project3 {
+        width: auto;
+    }
+
+    .titulo-project3 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project3 {
+        font-size: 0.6em;
+    }
+
+    .project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-project4 {
+        margin-left: 1em;
+    }
+
+    .titulo-project4 {
+        width: auto;
+    }
+
+    .titulo-project4 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project4 {
+        font-size: 0.6em;
+    }
+
+    .project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-project5 {
+        margin-left: 2em;
+    }
+
+    .titulo-project5 {
+        width: auto;
+    }
+
+    .titulo-project5 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project5 {
+        font-size: 0.6em;
+    }
+
+    .project5 {
+        margin-left: 1em;
+    }
+
+    .img-frontend img {
+        width: 12em;
+    }
+
+    .titulo-frontend {
+        margin-left: 6em;
+    }
+
+    .titulo-frontend h1 {
+        font-size: 0.9em;
+    }
+
+    .introducao-frontend-project1 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project1 {
+        width: auto;
+    }
+
+    .titulo-frontend-project1 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project1 {
+        font-size: 0.6em;
+    }
+
+    .frontend-project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project2 {
+        margin-left: 1em;
+    }
+
+    .titulo-frontend-project2 {
+        width: auto;
+    }
+
+    .titulo-frontend-project2 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project2 {
+        font-size: 0.6em;
+    }
+
+    .frontend-project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project3 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project3 {
+        width: auto;
+    }
+
+    .titulo-frontend-project3 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project3 {
+        font-size: 0.6em;
+    }
+
+    .frontend-project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project4 {
+        margin-left: 1em;
+    }
+
+    .titulo-frontend-project4 {
+        width: min-content;
+    }
+
+    .titulo-frontend-project4 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project4 {
+        font-size: 0.6em;
+    }
+
+    .frontend-project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project5 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project5 {
+        width: auto;
+    }
+
+    .titulo-frontend-project5 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project5 {
+        font-size: 0.6em;
+    }
+
+    .frontend-project5 {
+        margin-left: 1em;
+    }
+
+    .titulo-contato h1 {
+        font-size: 0.6em;
+    }
+
+    .texto-contato p {
+        font-size: 0.6em;
+    }
+
+    .introducao-contato {
+        margin-left: 6em;
+    }
+
+    .social-list2 {
+        gap: 0.6em;
+    }
+
+    .social-list2 img {
+        width: 1em;
+    }
+
+    .imagem-contato img {
+        width: 12em;
+    }
+}
+
+
+
+@media screen and (max-width: 478px) {
+    .primeiras-informacoes img {
+        width: 1.5em;
+    }
+
+    .logo {
+        width: min-content;
+    }
+
+    .nome-espaco {
+        letter-spacing: 0.6em;
+    }
+
+    .nome-espaco h1 {
+        font-size: 0.6em;
+    }
+
+    nav {
+        align-items: baseline;
+    }
+    
+    nav ul {
+        gap: 1em;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+
+    nav ul a {
+        font-size: 0.5em;
+    }
+
+    .lado-direito h2 {
+        font-size: 0.5em;
+    }
+
+    .elipse {
+        margin-left: 3.5em;
+    }
+
+    .eclipse1 {
+        width: 8em;
+        height: 8em;
+    }
+
+    .eclipse2 {
+        width: 8em;
+        height: 8em;
+        box-shadow: inset 0em 0em 0.5em 0em #e40037;
+    }
+
+    .centro2 img {
+        width: 10em;
+        position: absolute;
+        height: 23em;
+    }
+
+    .ultimas-informacoes {
+        margin-top: 1em;
+    }
+
+    .ultimas-informacoes span {
+        font-size: 0.5em;
+    }
+
+    .social-list {
+        gap: 0.6em;
+    }
+
+    .social-list img {
+        width: 0.8em;
+    }
+
+    .imagem-about img {
+        width: 10em;
+    }
+
+    .titulo-about {
+        width: fit-content;
+    }
+
+    .titulo-about h1 {
+        font-size: 0.6em;
+    }
+
+    .texto-about p {
+        font-size: 0.5em;
+    }
+
+    .about1 {
+        margin-left: 4em;
+    }
+
+    .imagem-projects img {
+        width: 10em;
+    }
+
+    .projects1 {
+        margin-left: 4em;
+    }
+
+    .titulo-projects h1{
+        font-size: 0.6em;
+    }
+
+    .texto-projects p {
+        font-size: 0.5em;
+    }
+
+    .introducao-projects {
+        align-items: center;
+    }
+
+    .img-java img {
+        width: 10em;
+    }
+
+    .titulo-java h1 {
+        font-size: 0.8em;
+    }
+
+    .introducao-java {
+        margin-top: 7em;
+        justify-content: center;
+    }
+
+    video {
+        width: 220px;
+        height: 180px;
+    }
+
+    .introducao-project1 {
+        margin-left: 2em;
+    }
+
+    .titulo-project1 {
+        width: auto;
+    }
+
+    .titulo-project1 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project1 {
+        font-size: 0.5em;
+    }
+
+    .project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-project2 {
+        margin-left: 1em;
+    }
+
+    .titulo-project2 {
+        width: auto;
+    }
+
+    .titulo-project2 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project2 {
+        font-size: 0.5em;
+    }
+
+    .project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-project3 {
+        margin-left: 2em;
+    }
+
+    .titulo-project3 {
+        width: auto;
+    }
+
+    .titulo-project3 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project3 {
+        font-size: 0.5em;
+    }
+
+    .project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-project4 {
+        margin-left: 1em;
+    }
+
+    .titulo-project4 {
+        width: auto;
+    }
+
+    .titulo-project4 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project4 {
+        font-size: 0.5em;
+    }
+
+    .project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-project5 {
+        margin-left: 2em;
+    }
+
+    .titulo-project5 {
+        width: auto;
+    }
+
+    .titulo-project5 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project5 {
+        font-size: 0.5em;
+    }
+
+    .project5 {
+        margin-left: 1em;
+    }
+
+    .img-frontend img {
+        width: 8em;
+    }
+
+    .titulo-frontend {
+        margin-left: 3em;
+    }
+
+    .titulo-frontend h1 {
+        font-size: 0.7em;
+    }
+
+    .introducao-frontend-project1 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project1 {
+        width: auto;
+    }
+
+    .titulo-frontend-project1 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project1 {
+        font-size: 0.5em;
+    }
+
+    .frontend-project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project2 {
+        margin-left: 1em;
+    }
+
+    .titulo-frontend-project2 {
+        width: auto;
+    }
+
+    .titulo-frontend-project2 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project2 {
+        font-size: 0.5em;
+    }
+
+    .frontend-project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project3 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project3 {
+        width: auto;
+    }
+
+    .titulo-frontend-project3 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project3 {
+        font-size: 0.5em;
+    }
+
+    .frontend-project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project4 {
+        margin-left: 1em;
+    }
+
+    .titulo-frontend-project4 {
+        width: min-content;
+    }
+
+    .titulo-frontend-project4 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project4 {
+        font-size: 0.5em;
+    }
+
+    .frontend-project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project5 {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend-project5 {
+        width: auto;
+    }
+
+    .titulo-frontend-project5 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project5 {
+        font-size: 0.5em;
+    }
+
+    .frontend-project5 {
+        margin-left: 1em;
+    }
+
+    .titulo-contato h1 {
+        font-size: 0.6em;
+    }
+
+    .texto-contato p {
+        font-size: 0.5em;
+    }
+
+    .introducao-contato {
+        margin-left: 4em;
+    }
+
+    .social-list2 {
+        gap: 0.6em;
+    }
+
+    .social-list2 img {
+        width: 0.8em;
+    }
+
+    .imagem-contato img {
+        width: 10em;
+    }
+}
+
+
+
+@media screen and (max-width: 395px) {
+    .primeiras-informacoes img {
+        width: 1.2em;
+    }
+
+    .logo {
+        width: min-content;
+    }
+
+    .nome-espaco {
+        letter-spacing: 0.2em;
+    }
+
+    .nome-espaco h1 {
+        font-size: 0.5em;
+    }
+
+    nav {
+        align-items: baseline;
+    }
+    
+    nav ul {
+        gap: 0.8em;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+
+    nav ul a {
+        font-size: 0.4em;
+    }
+
+    .lado-direito h2 {
+        font-size: 0.4em;
+    }
+
+    .elipse {
+        margin-left: 2em;
+    }
+
+    .eclipse1 {
+        width: 7em;
+        height: 7em;
+    }
+
+    .eclipse2 {
+        width: 7em;
+        height: 7em;
+        box-shadow: inset 0em 0em 0.5em 0em #e40037;
+    }
+
+    .centro2 img {
+        width: 9em;
+        position: absolute;
+        height: 22em;
+    }
+
+    .ultimas-informacoes {
+        margin-top: 1em;
+    }
+
+    .ultimas-informacoes span {
+        font-size: 0.4em;
+    }
+
+    .social-list {
+        gap: 0.5em;
+    }
+
+    .social-list img {
+        width: 0.7em;
+    }
+
+    .imagem-about img {
+        width: 9em;
+    }
+
+    .titulo-about {
+        width: fit-content;
+    }
+
+    .titulo-about h1 {
+        font-size: 0.5em;
+    }
+
+    .texto-about p {
+        font-size: 0.4em;
+    }
+
+    .about1 {
+        margin-left: 3em;
+    }
+
+    .imagem-projects img {
+        width: 9em;
+    }
+
+    .projects1 {
+        margin-left: 3em;
+    }
+
+    .titulo-projects h1{
+        font-size: 0.5em;
+    }
+
+    .texto-projects p {
+        font-size: 0.4em;
+    }
+
+    .introducao-projects {
+        align-items: center;
+    }
+
+    .img-java img {
+        width: 9em;
+    }
+
+    .titulo-java h1 {
+        font-size: 0.8em;
+    }
+
+    .introducao-java {
+        margin-top: 7em;
+        justify-content: center;
+    }
+
+    video {
+        width: 220px;
+        height: 180px;
+    }
+
+    .introducao-project1 {
+        margin-left: 1em;
+    }
+
+    .titulo-project1 {
+        width: auto;
+    }
+
+    .titulo-project1 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project1 {
+        font-size: 0.4em;
+    }
+
+    .project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-project2 {
+        margin-left: 1em;
+    }
+
+    .titulo-project2 {
+        width: auto;
+    }
+
+    .titulo-project2 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project2 {
+        font-size: 0.4em;
+    }
+
+    .project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-project3 {
+        margin-left: 1em;
+    }
+
+    .titulo-project3 {
+        width: auto;
+    }
+
+    .titulo-project3 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project3 {
+        font-size: 0.4em;
+    }
+
+    .project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-project4 {
+        margin-left: 1em;
+    }
+
+    .titulo-project4 {
+        width: auto;
+    }
+
+    .titulo-project4 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project4 {
+        font-size: 0.4em;
+    }
+
+    .project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-project5 {
+        margin-left: 1em;
+    }
+
+    .titulo-project5 {
+        width: min-content;
+    }
+
+    .titulo-project5 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-project5 {
+        font-size: 0.4em;
+    }
+
+    .project5 {
+        margin-left: 1em;
+    }
+
+    .img-frontend img {
+        width: 7em;
+    }
+
+    .titulo-frontend {
+        margin-left: 2em;
+    }
+
+    .titulo-frontend h1 {
+        font-size: 0.7em;
+    }
+
+    .introducao-frontend-project1 {
+        margin-left: 1em;
+    }
+
+    .titulo-frontend-project1 {
+        width: auto;
+    }
+
+    .titulo-frontend-project1 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project1 {
+        font-size: 0.4em;
+    }
+
+    .frontend-project1 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project2 {
+        margin-left: 1em;
+    }
+
+    .titulo-frontend-project2 {
+        width: auto;
+    }
+
+    .titulo-frontend-project2 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project2 {
+        font-size: 0.4em;
+    }
+
+    .frontend-project2 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project3 {
+        margin-left: 1em;
+    }
+
+    .titulo-frontend-project3 {
+        width: auto;
+    }
+
+    .titulo-frontend-project3 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project3 {
+        font-size: 0.4em;
+    }
+
+    .frontend-project3 {
+        margin-left: 1em;
+    }
+
+    .introducao-frontend-project4 {
+        margin-left: 1em;
+    }
+
+    .titulo-frontend-project4 {
+        width: min-content;
+    }
+
+    .titulo-frontend-project4 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project4 {
+        font-size: 0.4em;
+    }
+
+    .frontend-project4 {
+        margin-right: 1em;
+    }
+
+    .introducao-frontend-project5 {
+        margin-left: 1em;
+    }
+
+    .titulo-frontend-project5 {
+        width: auto;
+    }
+
+    .titulo-frontend-project5 h2{
+        font-size: 0.6em;
+    }
+
+    .texto-frontend-project5 {
+        font-size: 0.4em;
+    }
+
+    .frontend-project5 {
+        margin-left: 1em;
+    }
+
+    .titulo-contato h1 {
+        font-size: 0.6em;
+    }
+
+    .texto-contato p {
+        font-size: 0.4em;
+    }
+
+    .introducao-contato {
+        margin-left: 4em;
+    }
+
+    .social-list2 {
+        gap: 0.5em;
+    }
+
+    .social-list2 img {
+        width: 0.7em;
+    }
+
+    .imagem-contato img {
+        width: 9em;
+    }
+}

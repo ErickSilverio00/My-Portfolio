@@ -1,0 +1,20 @@
+window.sr = ScrollReveal({reset: true});
+
+sr.reveal ('.primeiras-informacoes', { duration: 1000 });
+sr.reveal ('.eclipse2', { duration: 1000 });
+sr.reveal ('.ultimas-informacoes', { duration: 1000 });
+sr.reveal ('#sobre', { duration: 1000 });
+sr.reveal ('.introducao-projects', { duration: 1000 });
+sr.reveal ('.introducao-java', { duration: 1000 });
+sr.reveal ('.project1', { duration: 1000 });
+sr.reveal ('.project2', { duration: 1000 });
+sr.reveal ('.project3', { duration: 1000 });
+sr.reveal ('.project4', { duration: 1000 });
+sr.reveal ('.project5', { duration: 1000 });
+sr.reveal ('.introducao-frontend-projects', { duration: 1000 });
+sr.reveal ('.frontend-project1', { duration: 1000 });
+sr.reveal ('.frontend-project2', { duration: 1000 });
+sr.reveal ('.frontend-project3', { duration: 1000 });
+sr.reveal ('.frontend-project4', { duration: 1000 });
+sr.reveal ('.frontend-project5', { duration: 1000 });
+sr.reveal ('#contato', { duration: 1000 });
