@@ -3,6 +3,7 @@ window.sr = ScrollReveal({reset: true});
 sr.reveal ('.primeiras-informacoes', { duration: 1000 });
 sr.reveal ('.eclipse2', { duration: 1000 });
 sr.reveal ('.ultimas-informacoes', { duration: 1000 });
+sr.reveal ('.arrow', { duration: 1000 });
 sr.reveal ('#sobre', { duration: 1000 });
 sr.reveal ('.introducao-projects', { duration: 1000 });
 sr.reveal ('.introducao-java', { duration: 1000 });
